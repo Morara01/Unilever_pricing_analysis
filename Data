@@ -1,2 +1,38 @@
 data/raw/README.md
-Raw datasets used in the project.
+# Regional Pricing Strategy Optimization
+
+## Business Problem
+Unilever operates across multiple European regions with differing cost structures,
+brand strength, and margin targets. This project evaluates current pricing logic,
+identifies regional misalignments, and predicts optimal prices using data analytics
+and machine learning.
+
+## Dataset
+- Unilever pricing dataset (Excel)
+- finance margin targets (Excel)
+
+## Tools & Technologies
+- Excel (initial pricing logic)
+- SQL (data querying)
+- Python (Pandas, NumPy)
+- Visualization (Matplotlib)
+- Statistics (SciPy)
+- Machine Learning (Scikit-learn)
+
+## Project Workflow
+1. Data ingestion and cleaning
+2. Feature engineering
+3. Exploratory Data Analysis (EDA)
+4. Statistical testing (t-tests, regression)
+5. Machine learning (price prediction & premium classification)
+6. Executive recommendations
+
+## Key Insights
+- Statistically significant price differences exist across regions
+- Brand strength is a strong driver of recommended price
+- Certain regions under-monetize margin targets
+
+## Business Recommendations
+- Introduce region-specific pricing bands
+- Use ML-based guidance for new product pricing
+- Apply probability thresholds for premium positioning
